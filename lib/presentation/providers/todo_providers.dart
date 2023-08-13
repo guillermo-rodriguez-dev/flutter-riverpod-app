@@ -15,7 +15,6 @@ final todoFilterProvider = StateProvider<TodoFilers>((ref) {
 });
 
 
-
 final todoProvider = StateProvider<List<Todo>>((ref) {
   return [
     Todo(id: uuid.v4(), description: RandomGenerator.getRandomName(), completedAt: null),
